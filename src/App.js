@@ -21,14 +21,25 @@ const textVariants = {
 function App() {
   return (
     <>
+      {/* Navbar */}
       <NavBar />
-      <Home />
-      <Education />
-      <Skills/>
-      <Skills2/>
-      <Experience/>
-      <Projects/>
 
+      {/* Sections with IDs */}
+      <div id="home">
+        <Home />
+      </div>
+      <div id="education">
+        <Education />
+      </div>
+      <div id="skills">
+        <Skills />
+      </div>
+      <div id="experience">
+        <Experience />
+      </div>
+      <div id="projects">
+        <Projects />
+      </div>
     </>
   );
 }
