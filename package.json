@@ -2,7 +2,7 @@
   "name": "portfolio-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://neelmalwatkar.github.io/portfolio-website",
+  "homepage": "https://neelmalwatkar.github.io/portfolio-website",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
