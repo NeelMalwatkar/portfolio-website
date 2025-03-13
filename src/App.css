@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+#education {
+  scroll-margin-top: 50px; /* Adjust based on Navbar height */
+ /* Adds space between Navbar and content */
+}
+
+#skills {
+  scroll-margin-top: 50px; /* Adjust based on Navbar height */
+ /* Adds space between Navbar and content */
+}
+#experience{
+  scroll-margin-top: 50px; /* Adjust based on Navbar height */
+  padding-top: 30px;  /* Adds space between Navbar and content */
+}
+#projects{
+  scroll-margin-top: 50px; /* Adjust based on Navbar height */
+  padding-top: 30px;  /* Adds space between Navbar and content */
+}
