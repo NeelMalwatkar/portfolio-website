@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Box, Typography, Button } from "@mui/material";
 import { motion } from "framer-motion";
 
-const img_parent_path="/assets/education/"
+const img_parent_path=process.env.PUBLIC_URL+"/assets/education/"
 const educationData = [
   {
     degree: "M.S Computer Science",

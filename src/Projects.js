@@ -9,7 +9,7 @@ import devicons from './icons.json';
 // import Grid from "@mui/material/Grid2";
 // const img_parent_path="/assets/projects/"
 
-const img_parent_path = "/assets/projects/";
+const img_parent_path = process.env.PUBLIC_URL+"/assets/projects/";
 const icon_url = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons";
 const projects = [
   // {
@@ -25,8 +25,8 @@ const projects = [
   // },
   {
     title: "Roamio",
-    description: "A social network for travellers to share and follow travel itineraries.",
-    image: "news_app.jpg",
+    description: "Everybody loves to travel but the pressure to plan a trip is too much? To solve this, a social network for travellers to share their travel itineraries.",
+    image: "roamio.jpeg",
     techStack: [
       { name: "Go", icon: `${devicons['Go']}` },
       { name: "SQLite", icon: `${devicons['SQLite']}` },
@@ -38,7 +38,7 @@ const projects = [
   {
     title: "Reddit Engine and Simulator",
     description: "Built a highly scalable reddit engine in Go using actor model. Implemented a simulator to emulate user behaviour using zipf distribution.",
-    image: "news_app.jpg",
+    image: "reddit.webp",
     techStack: [
       { name: "Go", icon: "/go/go-original.svg" },
     ],
@@ -47,7 +47,7 @@ const projects = [
   {
     title: "Proposal ChatBot",
     description: "LLM driven chatbot on past 7000+ RFPs and Proposal PDF documents to speed up proposal drafting process.",
-    image: "news_app.jpg",
+    image: "prop_chatbot.webp",
     techStack: [
       { name: "Python", icon: "/python/python-original.svg" },
       { name: "Llama-Index", icon_local:"llamaIndex.jpeg", icon: "" },

@@ -12,6 +12,7 @@ import Skills2 from './skills2';
 import Experience from './Experience';
 import Projects from './Projects';
 import About from './About';
+import Footer from "./Footer";
 
 const textVariants = {
   hidden: { opacity: 0 },
@@ -39,6 +40,9 @@ function App() {
       </div>
       <div id="projects">
         <Projects />
+      </div>
+      <div id="footer">
+        <Footer/>
       </div>
     </>
   );

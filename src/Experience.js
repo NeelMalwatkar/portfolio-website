@@ -2,7 +2,7 @@ import React from 'react';
 import { Timeline, TimelineItem, TimelineSeparator, TimelineConnector, TimelineContent, TimelineDot, TimelineOppositeContent, timelineOppositeContentClasses } from '@mui/lab';
 import { Container,Typography, Paper, Avatar, List, ListItem } from '@mui/material';
 
-const img_parent_path = "/assets/experience/"
+const img_parent_path = process.env.PUBLIC_URL+"/assets/experience/"
 const experienceData = [
   {
     role: "Graduate Teaching Assistant",
@@ -74,9 +74,9 @@ const Experience = () => {
           <TimelineItem key={index}>
 
             {/* Empty Space for Proper Left Alignment */}
-            <TimelineOppositeContent sx={{color:"primary.light"}}>
+            <TimelineOppositeContent sx={{color:"primary.light", fontWeight:"bold"}}>
               {exp.duration}
-            </TimelineOppositeContent>
+            </TimelineOppositeContent> 
 
             {/* Logo & Line on the Left */}
             <TimelineSeparator>

@@ -21,5 +21,7 @@
     "GitHub":"",
     "AWS ECS":"",
     "Azure Functions":"",
-    "Azure WebApp":""
+    "Azure WebApp":"",
+    "Java":"/java/java-original.svg",
+    "Julia":"/julia/julia-original.svg"
   }

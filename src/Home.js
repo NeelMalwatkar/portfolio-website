@@ -9,7 +9,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 
 function Home() {
-  const text = "Hello! I am Neel.";
+  const text = "Hello There! I am Neel.";
   const subintro1 = "A backend developer, passionate about solving problems using AI.";
 
   const textVariants = {
