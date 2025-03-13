@@ -2,11 +2,12 @@ import React from 'react';
 import { Timeline, TimelineItem, TimelineSeparator, TimelineConnector, TimelineContent, TimelineDot, TimelineOppositeContent, timelineOppositeContentClasses } from '@mui/lab';
 import { Container,Typography, Paper, Avatar, List, ListItem } from '@mui/material';
 
+const img_parent_path = "/assets/experience/"
 const experienceData = [
   {
     role: "Graduate Teaching Assistant",
     company: "CISE, University of Florida | Part-Time",
-    logo: "/assets/uf_logo.png",
+    logo: "uf_logo.png",
     duration: "Jan 2025 - Present",
     description: [
       "Assisting in evaluating assignments and projects for a course on programming language principles.",
@@ -17,7 +18,7 @@ const experienceData = [
   {
     role: "Associate Product Developer",
     company: "AlgoAnalytics Private Limited | Full-Time",
-    logo: "/assets/Algo_logo.png",
+    logo: "Algo_logo.png",
     duration: "Jun 2023 - Jul 2024",
     description: [
       "Developed a framework for a stock picking product in Python employing Machine Learning and optimization techniques.",
@@ -30,7 +31,7 @@ const experienceData = [
   {
     role: "Software Development Intern",
     company: "AlgoAnalytics Private Limited | Internship",
-    logo: "/assets/Algo_logo.png",
+    logo: "Algo_logo.png",
     duration: "Aug 2023 - Dec 2023",
     description: [
       "Pioneered a auto-scalable feature analyzing shareholding patterns, expanding from 50 to 125+ Nifty companies, providing key market insights to traders.",
@@ -42,7 +43,7 @@ const experienceData = [
   {
     role: "Corporate Engineering Intern - Design",
     company: "Wipro PARI | Internship",
-    logo: "/assets/wipropari.jpg",
+    logo: "wipropari.jpg",
     duration: "Jun 2022 - Jan 2023",
     description: [
       "Implemented features for Azure DevOps CI/CD pipelines.",
@@ -57,7 +58,7 @@ const experienceData = [
 const Experience = () => {
   return (
     // <Box sx={{ display: 'flex', flexDirection: 'column', mt: 5, ml: 5, width: '100%' }}>
-    <Container sx={{ marginTop: 5 }}>
+    <Container sx={{  minHeight: '100vh' }}>
       <Typography variant="h3" fontWeight='bold' gutterBottom color="primary" textAlign="center">
         EXPERIENCE
       </Typography>
@@ -86,7 +87,7 @@ const Experience = () => {
                   borderRadius:2,
                   width: 60, height: 60,
                   }}>
-                <Avatar src={exp.logo} sx={{ width: 60, height: 60, borderRadius:2, border: "0.7px solid black", }} />
+                <Avatar src={img_parent_path+exp.logo} sx={{ width: 60, height: 60, borderRadius:2, border: "0.7px solid black", }} />
               </TimelineDot>
               {index !== experienceData.length - 1 && <TimelineConnector />}
             </TimelineSeparator>
