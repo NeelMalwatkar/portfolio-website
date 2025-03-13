@@ -1,0 +1,17 @@
+{
+    "Python": "/python/python-original.svg",
+    "Go": "/go/go-original.svg",
+    "JavaScript": "/javascript/javascript-original.svg",
+    "C++": "/cplusplus/cplusplus-original.svg",
+    "HTML5": "/html5/html5-original.svg",
+    "React": "/react/react-original.svg",
+    "Node.js": "/nodejs/nodejs-original.svg",
+    "PostgreSQL": "/postgresql/postgresql-original.svg",
+    "MongoDB": "/mongodb/mongodb-original.svg",
+    "MySQL": "/mysql/mysql-original.svg",
+    "AWS": "/amazonwebservices/amazonwebservices-original-wordmark.svg",
+    "Azure": "/azure/azure-original.svg",
+    "Firebase": "/firebase/firebase-plain.svg",
+    "SQLite": "/sqlite/sqlite-original.svg",
+    "":""
+  }
