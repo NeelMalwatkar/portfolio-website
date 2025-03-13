@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Box, Typography, Button } from "@mui/material";
 import { motion } from "framer-motion";
 
+const img_parent_path="/assets/education/"
 const educationData = [
   {
     degree: "M.S Computer Science",
@@ -9,7 +10,7 @@ const educationData = [
     university: "University of Florida",
     gpa: "4.0/4.0",
     duration: "August 2024 - May 2026",
-    image: "/assets/uf_gate.jpeg",
+    image: "uf_gate.jpeg",
     coursework: [
       "Advanced Data Structures",
       "Machine Learning",
@@ -25,7 +26,7 @@ const educationData = [
     university: "Pune University",
     gpa: "9.31/10",
     duration: "August 2019 - May 2023",
-    image: "./assets/sppu_gate.webp",
+    image: "sppu_gate.webp",
     coursework: [
       "Robotics (Honors)",
       "Object Oriented Programming",
@@ -49,6 +50,7 @@ const EducationCard = ({ edu }) => {
         position: "relative",
       }}
     >
+      
       <motion.div
         animate={{ rotateY: flipped ? 180 : 0 }}
         transition={{ duration: 0.6, ease: "easeInOut" }}
@@ -71,7 +73,7 @@ const EducationCard = ({ edu }) => {
             flexDirection: "column",
             justifyContent: "center",
             alignItems: "center",
-            backgroundImage: `url(${edu.image})`,
+            backgroundImage: `url(${img_parent_path+edu.image})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             borderRadius: 3,
@@ -152,7 +154,7 @@ const EducationCard = ({ edu }) => {
 
 const Education = () => {
   return (
-    <Box>
+    <Box sx={{ minHeight: '70vh', paddingTop: '50px'}}>
       <Typography variant="h3" fontWeight='bold' gutterBottom textAlign="center" color="primary">
         EDUCATION
       </Typography>
