@@ -12,6 +12,8 @@ const skillsData = [
       {name:"Go"},
       { name: "JavaScript" },
       { name: "C++"},
+      {name:"Julia"},
+      {name:"Java"}
     ],
   },
   {

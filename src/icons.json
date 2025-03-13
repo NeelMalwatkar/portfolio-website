@@ -13,5 +13,13 @@
     "Azure": "/azure/azure-original.svg",
     "Firebase": "/firebase/firebase-plain.svg",
     "SQLite": "/sqlite/sqlite-original.svg",
-    "":""
+    "DynamoDB":"/dynamodb/dynamodb-original.svg",
+    "CSS":"/css3/css3-original.svg",
+    "AWS Lambda":"",
+    "AWS S3":"",
+    "AWS CLoudwatch":"",
+    "GitHub":"",
+    "AWS ECS":"",
+    "Azure Functions":"",
+    "Azure WebApp":""
   }
