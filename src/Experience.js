@@ -2,7 +2,7 @@ import React from 'react';
 import { Timeline, TimelineItem, TimelineSeparator, TimelineConnector, TimelineContent, TimelineDot, TimelineOppositeContent, timelineOppositeContentClasses } from '@mui/lab';
 import { Container,Typography, Paper, Avatar, List, ListItem } from '@mui/material';
 
-const img_parent_path = process.env.PUBLIC_URL+"/assets/experience/"
+const img_parent_path = "/assets/experience/"
 const experienceData = [
   {
     role: "Graduate Teaching Assistant",
@@ -87,7 +87,8 @@ const Experience = () => {
                   borderRadius:2,
                   width: 60, height: 60,
                   }}>
-                <Avatar src={img_parent_path+exp.logo} sx={{ width: 60, height: 60, borderRadius:2, border: "0.7px solid black", }} />
+                <Avatar src={`${img_parent_path}${exp.logo}`} 
+                sx={{ width: 60, height: 60, borderRadius:2, border: "0.7px solid black", }} />
               </TimelineDot>
               {index !== experienceData.length - 1 && <TimelineConnector />}
             </TimelineSeparator>
