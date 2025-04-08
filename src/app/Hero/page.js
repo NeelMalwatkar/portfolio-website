@@ -55,7 +55,7 @@ function Home() {
             fontWeight="bold"
             component="div"
             gutterBottom
-            sx={{ color: "secondary.light" }}
+            sx={{ color: "primary.main" }}
           >
             <motion.div
               initial="hidden"
